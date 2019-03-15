@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="cPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Path</Value>
+    </Setting>
+    <Setting Name="CurrentHVColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Gold</Value>
+    </Setting>
+    <Setting Name="R" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="G" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="B" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WhichColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">None</Value>
+    </Setting>
+    <Setting Name="CustomColor" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="dR" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="dG" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="dB" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="dCustomColor" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CurrentDWColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Gold</Value>
+    </Setting>
+    <Setting Name="CenterUberCharge" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="TauntColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">No</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
