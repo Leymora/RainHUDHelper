@@ -68,25 +68,25 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("1")>  _
-        Public Property HealthColorRBSelected() As Integer
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property HealthCustomColorCB_Checked() As Integer
             Get
-                Return CType(Me("HealthColorRBSelected"),Integer)
+                Return CType(Me("HealthCustomColorCB_Checked"),Integer)
             End Get
             Set
-                Me("HealthColorRBSelected") = value
+                Me("HealthCustomColorCB_Checked") = value
             End Set
         End Property
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("1")>  _
-        Public Property DWColorRBSelected() As Integer
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property DWCustomColorCB_Checked() As Boolean
             Get
-                Return CType(Me("DWColorRBSelected"),Integer)
+                Return CType(Me("DWCustomColorCB_Checked"),Boolean)
             End Get
             Set
-                Me("DWColorRBSelected") = value
+                Me("DWCustomColorCB_Checked") = value
             End Set
         End Property
     End Class
