@@ -25,19 +25,18 @@ Partial Class Form1
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.AACButton = New System.Windows.Forms.Button()
-        Me.cPathApplyButton = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.cPathTextBox = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.DWCustomColorCB = New System.Windows.Forms.CheckBox()
+        Me.HealthCustomColorCB = New System.Windows.Forms.CheckBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.HealthCustomColorCB = New System.Windows.Forms.CheckBox()
-        Me.DWCustomColorCB = New System.Windows.Forms.CheckBox()
         Me.WarningText = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
@@ -56,11 +55,10 @@ Partial Class Form1
         '
         'TabPage1
         '
+        Me.TabPage1.Controls.Add(Me.Button3)
         Me.TabPage1.Controls.Add(Me.AACButton)
-        Me.TabPage1.Controls.Add(Me.cPathApplyButton)
         Me.TabPage1.Controls.Add(Me.Label2)
         Me.TabPage1.Controls.Add(Me.cPathTextBox)
-        Me.TabPage1.Controls.Add(Me.Label1)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
@@ -79,42 +77,23 @@ Partial Class Form1
         Me.AACButton.Text = "Apply All Changes"
         Me.AACButton.UseVisualStyleBackColor = True
         '
-        'cPathApplyButton
-        '
-        Me.cPathApplyButton.Location = New System.Drawing.Point(686, 28)
-        Me.cPathApplyButton.Name = "cPathApplyButton"
-        Me.cPathApplyButton.Size = New System.Drawing.Size(75, 23)
-        Me.cPathApplyButton.TabIndex = 3
-        Me.cPathApplyButton.Text = "Apply"
-        Me.cPathApplyButton.UseVisualStyleBackColor = True
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(3, 31)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(162, 16)
+        Me.Label2.Size = New System.Drawing.Size(175, 15)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Path to TF2 custom folder:"
         '
         'cPathTextBox
         '
         Me.cPathTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cPathTextBox.Location = New System.Drawing.Point(165, 29)
+        Me.cPathTextBox.Location = New System.Drawing.Point(181, 29)
         Me.cPathTextBox.Name = "cPathTextBox"
-        Me.cPathTextBox.Size = New System.Drawing.Size(515, 22)
+        Me.cPathTextBox.Size = New System.Drawing.Size(499, 22)
         Me.cPathTextBox.TabIndex = 1
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(162, 13)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(396, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "(Default: C:\Program Files\steam\steamapps\common\Team Fortress 2\tf\custom)"
         '
         'TabPage2
         '
@@ -131,6 +110,26 @@ Partial Class Form1
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Colors"
         Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'DWCustomColorCB
+        '
+        Me.DWCustomColorCB.AutoSize = True
+        Me.DWCustomColorCB.Location = New System.Drawing.Point(137, 108)
+        Me.DWCustomColorCB.Name = "DWCustomColorCB"
+        Me.DWCustomColorCB.Size = New System.Drawing.Size(110, 17)
+        Me.DWCustomColorCB.TabIndex = 9
+        Me.DWCustomColorCB.Text = "Use Custom Color"
+        Me.DWCustomColorCB.UseVisualStyleBackColor = True
+        '
+        'HealthCustomColorCB
+        '
+        Me.HealthCustomColorCB.AutoSize = True
+        Me.HealthCustomColorCB.Location = New System.Drawing.Point(92, 39)
+        Me.HealthCustomColorCB.Name = "HealthCustomColorCB"
+        Me.HealthCustomColorCB.Size = New System.Drawing.Size(110, 17)
+        Me.HealthCustomColorCB.TabIndex = 8
+        Me.HealthCustomColorCB.Text = "Use Custom Color"
+        Me.HealthCustomColorCB.UseVisualStyleBackColor = True
         '
         'Button2
         '
@@ -179,26 +178,6 @@ Partial Class Form1
         Me.TabPage3.Text = "Overrides"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
-        'HealthCustomColorCB
-        '
-        Me.HealthCustomColorCB.AutoSize = True
-        Me.HealthCustomColorCB.Location = New System.Drawing.Point(92, 39)
-        Me.HealthCustomColorCB.Name = "HealthCustomColorCB"
-        Me.HealthCustomColorCB.Size = New System.Drawing.Size(110, 17)
-        Me.HealthCustomColorCB.TabIndex = 8
-        Me.HealthCustomColorCB.Text = "Use Custom Color"
-        Me.HealthCustomColorCB.UseVisualStyleBackColor = True
-        '
-        'DWCustomColorCB
-        '
-        Me.DWCustomColorCB.AutoSize = True
-        Me.DWCustomColorCB.Location = New System.Drawing.Point(137, 108)
-        Me.DWCustomColorCB.Name = "DWCustomColorCB"
-        Me.DWCustomColorCB.Size = New System.Drawing.Size(110, 17)
-        Me.DWCustomColorCB.TabIndex = 9
-        Me.DWCustomColorCB.Text = "Use Custom Color"
-        Me.DWCustomColorCB.UseVisualStyleBackColor = True
-        '
         'WarningText
         '
         Me.WarningText.AutoSize = True
@@ -209,6 +188,15 @@ Partial Class Form1
         Me.WarningText.TabIndex = 1
         Me.WarningText.Text = "You have unsaved changes! Go to the Settings tab and press ""Apply All Changes"""
         Me.WarningText.Visible = False
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(686, 28)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 5
+        Me.Button3.Text = "Default"
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -237,9 +225,7 @@ Partial Class Form1
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents cPathTextBox As TextBox
-    Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents cPathApplyButton As Button
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents Label3 As Label
     Friend WithEvents Button1 As Button
@@ -249,4 +235,5 @@ Partial Class Form1
     Friend WithEvents HealthCustomColorCB As CheckBox
     Friend WithEvents DWCustomColorCB As CheckBox
     Friend WithEvents WarningText As Label
+    Friend WithEvents Button3 As Button
 End Class

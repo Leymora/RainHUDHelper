@@ -5,11 +5,11 @@
     <Setting Name="cPath" Type="System.String" Scope="User">
       <Value Profile="(Default)"> C:\Program Files\steam\steamapps\common\Team Fortress 2\tf\custom</Value>
     </Setting>
-    <Setting Name="HealthCustomColorCB_Checked" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">0</Value>
+    <Setting Name="HealthCustomColorCB_Checked" Type="System.Windows.Forms.CheckState" Scope="User">
+      <Value Profile="(Default)">Unchecked</Value>
     </Setting>
-    <Setting Name="DWCustomColorCB_Checked" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
+    <Setting Name="DWCustomColorCB_Checked" Type="System.Windows.Forms.CheckState" Scope="User">
+      <Value Profile="(Default)">Unchecked</Value>
     </Setting>
   </Settings>
 </SettingsFile>

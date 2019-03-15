@@ -68,10 +68,10 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
-        Public Property HealthCustomColorCB_Checked() As Integer
+         Global.System.Configuration.DefaultSettingValueAttribute("Unchecked")>  _
+        Public Property HealthCustomColorCB_Checked() As Global.System.Windows.Forms.CheckState
             Get
-                Return CType(Me("HealthCustomColorCB_Checked"),Integer)
+                Return CType(Me("HealthCustomColorCB_Checked"),Global.System.Windows.Forms.CheckState)
             End Get
             Set
                 Me("HealthCustomColorCB_Checked") = value
@@ -80,10 +80,10 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property DWCustomColorCB_Checked() As Boolean
+         Global.System.Configuration.DefaultSettingValueAttribute("Unchecked")>  _
+        Public Property DWCustomColorCB_Checked() As Global.System.Windows.Forms.CheckState
             Get
-                Return CType(Me("DWCustomColorCB_Checked"),Boolean)
+                Return CType(Me("DWCustomColorCB_Checked"),Global.System.Windows.Forms.CheckState)
             End Get
             Set
                 Me("DWCustomColorCB_Checked") = value
