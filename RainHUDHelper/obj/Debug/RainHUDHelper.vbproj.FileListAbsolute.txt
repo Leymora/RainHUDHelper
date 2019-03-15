@@ -1,0 +1,12 @@
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\bin\Debug\RainHUDHelper.exe.config
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\bin\Debug\RainHUDHelper.exe
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\bin\Debug\RainHUDHelper.pdb
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\bin\Debug\RainHUDHelper.xml
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHelper.vbprojAssemblyReference.cache
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHelper.Form1.resources
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHelper.Resources.resources
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHelper.vbproj.GenerateResource.cache
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHelper.vbproj.CoreCompileInputs.cache
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHelper.exe
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHelper.xml
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHelper.pdb
