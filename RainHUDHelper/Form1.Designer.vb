@@ -107,8 +107,8 @@ Partial Class Form1
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(425, 13)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "(Default path:  C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom" & _
-            ")"
+        Me.Label3.Text = "(Default path:  C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom" &
+    ")"
         '
         'Label2
         '
@@ -395,8 +395,8 @@ Partial Class Form1
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(588, 17)
         Me.Label9.TabIndex = 10
-        Me.Label9.Text = "You have unsaved overrides! Please press the ""Apply Changes"" button in the Overri" & _
-            "des tab."
+        Me.Label9.Text = "You have unsaved overrides! Please press the ""Apply Changes"" button in the Overri" &
+    "des tab."
         '
         'Label10
         '

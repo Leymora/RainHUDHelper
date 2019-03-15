@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="cPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Path</Value>
+      <Value Profile="(Default)">C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom</Value>
     </Setting>
     <Setting Name="CurrentHVColor" Type="System.String" Scope="User">
       <Value Profile="(Default)">Gold</Value>
