@@ -10,3 +10,4 @@ C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHel
 C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHelper.exe
 C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHelper.xml
 C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHelper.pdb
+C:\Users\vilhe\Documents\GitHub\RainHUDHelper\RainHUDHelper\obj\Debug\RainHUDHelper.ColorChooser.resources

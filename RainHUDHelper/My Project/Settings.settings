@@ -11,5 +11,14 @@
     <Setting Name="DWCustomColorCB_Checked" Type="System.Windows.Forms.CheckState" Scope="User">
       <Value Profile="(Default)">Unchecked</Value>
     </Setting>
+    <Setting Name="HealthCustomColorR" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="HealthCustomColorG" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="HealthCustomColorB" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

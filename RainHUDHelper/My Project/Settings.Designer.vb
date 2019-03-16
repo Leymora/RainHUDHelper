@@ -89,6 +89,42 @@ Namespace My
                 Me("DWCustomColorCB_Checked") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property HealthCustomColorR() As Integer
+            Get
+                Return CType(Me("HealthCustomColorR"),Integer)
+            End Get
+            Set
+                Me("HealthCustomColorR") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property HealthCustomColorG() As Integer
+            Get
+                Return CType(Me("HealthCustomColorG"),Integer)
+            End Get
+            Set
+                Me("HealthCustomColorG") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property HealthCustomColorB() As Integer
+            Get
+                Return CType(Me("HealthCustomColorB"),Integer)
+            End Get
+            Set
+                Me("HealthCustomColorB") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
